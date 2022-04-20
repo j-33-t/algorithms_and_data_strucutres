@@ -15,10 +15,10 @@ def binary_search(list,target):
         else:
             last = midpoint - 1
     
-    return None
+    return print("Target not found")
 
 # Sorted List
 
 l = [1,2,3,4,5,6,7,8,9,10]
-t = 8
+t = 11
 binary_search(l,t)
